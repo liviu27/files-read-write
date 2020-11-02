@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "fromIban": "ING432",
+    "toIban": "ING431",
+    "fromBank": "ING",
+    "toBank": "ING",
+    "amount": 232.3
+  },
+  {
+    "id": 2,
+    "fromIban": "ING8945342",
+    "toIban": "RAIF443421",
+    "fromBank": "ING",
+    "toBank": "RAIFFEIESSEN",
+    "amount": 232.3
+  }
+]

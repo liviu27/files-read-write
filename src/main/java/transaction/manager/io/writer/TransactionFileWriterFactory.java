@@ -10,6 +10,8 @@ public interface TransactionFileWriterFactory {
                 return new CsvTransactionFileWriter();
             case XLSX:
                 return new XlsxTransactionFileWriter();
+            case JSON:
+                return new JsonTransactionFileWriter();
             default:
                 throw new IllegalArgumentException("Nu avem acest tip de Writer");
         }
